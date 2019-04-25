@@ -18,10 +18,11 @@ body {
     width: 100%;
     position: relative;
     z-index: 9;
+    background-color: black;
 }
 
 .table {
-    background-color: #645a7e;
+    background-color: red;
     z-index: 10;
     width: 100%;
     position: fixed;
@@ -30,9 +31,9 @@ body {
 
 #begin-game {
 	width: 200px;
-	background-color: #645a7e;
+	/* background-color: red; */
 	border-radius: 8px;
-    color: #fff;
+    color: tan;
 	padding: 25px;
 	position: absolute;
 	left: 0;
@@ -149,5 +150,9 @@ circle {
 	top: -60px;
 	left: 0;
 	right: 0;
+}
+
+html {
+    background-color: red;
 }
 
